@@ -1,0 +1,38 @@
+<div class="about-container">
+    <div class="container-fluid">
+        <app-title [title]="'About me'"></app-title>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 order-md-1 order-2">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="container-fluid about-description-container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="title-about">Hey, I'm Giovanni Iacolare.</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="about-description">
+                                        I am a Software Engineer and with my experience I help 
+                                        my clients to develop their projects.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <button-section [name]="'Experience'" [align]="'flex-end'" (click)="scrollTo('experience-container')"></button-section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 order-md-2 order-1 image-about-container">
+                <img class="image-about" src="{{imageAbout}}" alt="">
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+<div class="personalInfoContainer container-fluid justify-content-center align-items-center">
+    <div class="row">
+        <div class="col-12 text-md-start text-center">
+            <div class="row">
+                <div class="col-12">
+                    <div class="name">{{firstName}} {{lastName}}</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="job">{{jobDescription}}</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 justify-content-center">
+                    <button-section [name]="'Curriculum'" [align]="'flex-start'" [responsiveAlign]="'center'" [href]="'https://www.canva.com/design/DAE_lXi9A48/4VFTH5obiCWMONerr4nZiA/view?utm_content=DAE_lXi9A48&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink'"></button-section>
+                </div>
+                <div class="col-6">
+                    <button-section [name]="'Contact me'" [align]="'flex-start'" [responsiveAlign]="'center'" (click)="scrollTo()"></button-section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

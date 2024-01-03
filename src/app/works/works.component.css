@@ -1,0 +1,9 @@
+.experience-container {
+  background: linear-gradient(to right, #ffffff 50%, #ededed 50%);
+  background-color: #d4d4d4;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}/*# sourceMappingURL=works.component.css.map */

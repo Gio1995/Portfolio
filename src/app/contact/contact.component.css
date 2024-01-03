@@ -1,0 +1,45 @@
+.contact-container {
+  background-color: #ffffff;
+  height: 100vh;
+}
+.contact-container .contact-info {
+  font-family: "Open_Sans";
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(84, 99, 113);
+  border-width: 3px;
+  padding: 20px;
+  width: 600px;
+}
+.contact-container .contact-info .contact-subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  color: grey;
+}
+.contact-container .contact-info .contact-title {
+  font-size: 50px;
+  color: #4c4c4c;
+}
+.contact-container .contact-info .mail, .contact-container .contact-info .linkedin {
+  margin: 10px;
+}
+.contact-container .contact-info .mail a, .contact-container .contact-info .linkedin a {
+  color: #6c6c6c;
+  text-decoration: none;
+  font-family: "Open_Sans";
+  font-size: large;
+}
+.contact-container .contact-info .mail a:hover, .contact-container .contact-info .linkedin a:hover {
+  color: #3a3a3a;
+}
+@media (max-width: 767.98px) {
+  .contact-container .order-md-1, .contact-container .order-md-2 {
+    order: initial;
+  }
+  .contact-container .contact-info {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 20px;
+  }
+}/*# sourceMappingURL=contact.component.css.map */

@@ -1,0 +1,18 @@
+.container-button {
+  padding: 20px 0px 20px 0px;
+  display: flex;
+}
+.container-button .button-section {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(84, 99, 113);
+  border-width: 3px;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px;
+  font-family: "Open_Sans";
+  transition: background-color 0.3s;
+}
+.container-button .button-section:hover {
+  background-color: rgb(84, 99, 113);
+  color: white;
+}/*# sourceMappingURL=button.component.css.map */

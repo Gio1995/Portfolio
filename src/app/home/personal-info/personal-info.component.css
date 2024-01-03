@@ -1,0 +1,11 @@
+.personalInfoContainer {
+  text-align: left;
+  font-family: "Open_Sans";
+}
+.personalInfoContainer .name {
+  font-size: 45px;
+  color: black;
+}
+.personalInfoContainer .job {
+  font-size: 20px;
+}/*# sourceMappingURL=personal-info.component.css.map */

@@ -1,0 +1,64 @@
+.timeline-container{
+
+    width: 100%;
+
+    .line{
+        width: 10px;
+        height: 200px;
+        background-color: rgb(70, 70, 70);
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .time{
+        width: 100px;
+        height: 100px;
+        background-color: #46464600;
+        border-radius: 50%;
+        border-width: 30px;
+        border-color: #464646;
+        border-style: solid;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        transition: transform 0.3s;
+    }
+
+    .time:hover{
+        transform: translate(0, 0) scale(1.5);
+        border-width: 20px;
+    }
+
+    .date{
+        width: 100%;
+        text-align: end;
+        margin-top: 35px;
+        font-size: 25px;
+        font-family: 'Open_Sans';
+        color: #826640;
+    }
+
+    .company{
+        width: 100%;
+        text-align: start;
+        margin-top: 35px;
+        font-size: 25px;
+        font-family: 'Open_Sans';
+        font-weight: bold;
+        color: #826640;
+    }
+
+    .description{
+        position: absolute;
+        margin-top: 70px;
+        padding: 0px 20px 10px 0px;
+        font-family: 'Open_Sans';
+    }
+    
+    @media (max-width: 767.98px) {
+        .description{
+            margin-top: 100px;
+            padding: 0;
+        }
+    }
+}

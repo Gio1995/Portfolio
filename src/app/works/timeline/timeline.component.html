@@ -1,0 +1,41 @@
+
+<div class="timeline-container">
+
+    <div class="row">
+        <div class="col-4">
+            <div class="date">{{experience[0].date}}</div>
+        </div>
+        <div class="col-4">
+            <img class="time" src="{{experience[0].logo}}" alt="{{experience[0].company}}">
+        </div>
+        <div class="col-4 d-flex flex-column">
+            <div class="company">{{experience[0].company}}</div>
+            <div class="description">{{experience[0].description}}</div>
+        </div>
+    </div>
+
+    <div class="row" *ngFor="let exp of experience.slice(1)">
+        <div class="col12">
+            <div class="row">
+                <div class="col-12">
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <div class="row">
+                <div class="col-4">
+                    <div class="date">{{exp.date}}</div>
+                </div>
+                <div class="col-4 justify-content-center align-items-center">
+                    <img class="time" src="{{exp.logo}}" alt="{{exp.company}}">
+                </div>
+                <div class="col-4 d-flex flex-column">
+                    <div class="company">{{exp.company}}</div>
+                    <div class="description">{{exp.description}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

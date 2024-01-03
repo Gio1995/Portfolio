@@ -1,0 +1,9 @@
+.home-container {
+  background-color: #f3e1c9;
+  height: 100vh;
+}
+@media (max-width: 767.98px) {
+  .home-container .order-md-1, .home-container .order-md-2 {
+    order: initial;
+  }
+}/*# sourceMappingURL=home.component.css.map */
